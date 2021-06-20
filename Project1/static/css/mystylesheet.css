@@ -1,0 +1,46 @@
+.container-1{
+    border: 1px solid black;
+}
+.flex-box-container-1, .flex-box-container-3,.flex-box-rps{
+    display:flex;
+    border: 1px solid black;
+    padding:10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+   /* justify-content:flex-end; lot of options related to flex box
+   also flex-direction ,there are more options. Also coma separated syntax you can
+   avoid redundant code for various classes
+   */
+}
+/*Inside flex-box-container-1 ,if there are div ,they follow below CSS*/
+.flex-box-container-1 div{
+    padding:10px;
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    
+}
+.container-2,.container-3{
+    border: 1px solid red;
+    width: 75%;
+    margin:0 auto;
+    text-align:center;
+}
+.flex-box-container-2{
+    display:flex;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    justify-content: space-around;/*Intelligent spacing based on nos*/
+
+}
+.flex-box-container-2 img{
+    border: 20px solid green;
+    /*padding: 10px; padding between images ,not required*/
+    margin: 10 px;
+    box-shadow:3px 3px 5px 6px #ccc;
+}
+/*Hover CSS*/
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
