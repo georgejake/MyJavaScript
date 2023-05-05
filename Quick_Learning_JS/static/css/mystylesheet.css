@@ -10,7 +10,7 @@
     flex-direction: row;
    /* justify-content:flex-end; lot of options related to flex box
    also flex-direction ,there are more options. Also coma separated syntax you can
-   avoid redundant code for various classes
+   avoid redundant code for various classes. justify-content: space-around is the one which keeps boxes separate with space
    */
 }
 /*Inside flex-box-container-1 ,if there are div ,they follow below CSS*/
