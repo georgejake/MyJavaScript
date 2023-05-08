@@ -40,7 +40,8 @@
     margin: 10 px;
     box-shadow:3px 3px 5px 6px #ccc;
 }
-/*Hover CSS*/
+/* Below CSS ==> For every image element in flex-box-rps ,what should happen on hover */
 .flex-box-rps img:hover{
     box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+       
 }

@@ -25,6 +25,7 @@ function rpsGame(yourChoice){
     humanChoice = yourChoice.id;
     botChoice= numberToChoice(randToRpsInt());
     //console.log(botChoice);
+    //decideWinner returns an array e.g [1,0]==> Human won,[0,1]==>Computer Won,[.5,.5]==>Drawn
     results = decideWinner(humanChoice,botChoice);
     //console.log(results);
     message = finalMessage(results); 
